@@ -1,0 +1,98 @@
+body{
+	background-color: #68829e;
+	font-family: 'Baloo Thambi 2', sans-serif;
+}
+
+#container{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo{
+	color: white;
+	font-size: 44px;
+	letter-spacing: 3px;
+	font-weight: 400;
+	margin-left: 20;
+	margin-right: 20;
+	padding: 5px;
+}
+
+#menu{
+	width: 800;
+	background-color: #323b62;
+	color: #dedede;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content{
+	float: left;
+	padding: 40px;
+	width: 720px;
+	background-color: #dedede;
+	min-height: 280px;
+	text-align: justify;
+}
+
+#footer{
+	clear: both;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+}
+
+a.class1:link, :visited{
+  color: #dedede;
+  text-decoration: none;
+}
+
+a.class2{ 
+color: black;
+}
+
+.option{
+	float: left;
+	width: 133px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 3px dotted #606680;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.lastoption{
+	float: left;
+	width: 136px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.option:hover{
+	background-color: #606680;
+	cursor: pointer;
+}
+
+.lastoption:hover{
+	background-color: #606680;
+	cursor: pointer;
+}
+
+.bigtitle{
+	font-size: 32px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+td {
+	border: 0px; 
+	text-align: center;
+	min-width: 225px;
+}
